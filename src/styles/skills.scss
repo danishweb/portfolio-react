@@ -1,0 +1,30 @@
+.skills{
+    margin: 4rem 0;
+    
+    .title{
+        font-size: 1.4rem;
+            font-weight: 400;
+    }
+    .bar{
+        display: flex;
+        align-items: center;
+        .text{
+            margin-right: 1rem;
+        }
+        .progress{
+                width: 15rem;
+                height: 0.4rem;
+                background-color: #68607548;
+                position: relative;
+                .widthcontroller{
+                    position: absolute;
+                    width: 75%;
+                    height: 100%;
+                    left: 0;
+                    bottom: 0;
+                    background-color: #8739F9;
+                }
+        }
+
+    }
+}

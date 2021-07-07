@@ -1,0 +1,43 @@
+.HomePage{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+}
+
+.heading-text{
+    color: #fff;
+    span{
+        color: #8739F9;
+    }
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 1.5rem 0;
+    
+    .sm-handles{
+        margin-right: 1rem;
+        
+        .s-media{
+            font-size: 2.5rem;
+            color: #fff;
+            transition: all .5s ease-in-out; 
+            }
+        .insta:hover{
+            color: #C13584;
+        }
+        .yt:hover{
+            color: red;
+        }
+        .gh:hover{
+            color: purple;
+        }
+        }
+    }
+    
+        
+    

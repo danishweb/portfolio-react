@@ -1,0 +1,39 @@
+@import "./styles/design.scss";
+@import "./styles/navbar.scss";
+@import "./styles/HomePage.scss";
+@import "./styles/_pages_title.scss";
+@import "./styles/about.scss";
+@import "./styles/skills.scss";
+@import "./styles/contact.scss";
+@import "./styles/projects.scss";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;1,100;1,200;1,300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body::-webkit-scrollbar {
+  width: 8px;
+}
+body::-webkit-scrollbar-thumb {
+  background-color: #8739f9;
+  border-radius: 50px;
+}
+body::-webkit-scrollbar-track {
+  background-color: #68607548;
+}
+body {
+  font-size: 1.2rem;
+  font-family: "Poppins", sans-serif;
+  color: #eefbfb;
+}
+
+span {
+  color: #8739f9;
+}
+
+@media screen and (max-width: 410px) {
+  html {
+    font-size: 70%;
+  }
+}
