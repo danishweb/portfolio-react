@@ -1,6 +1,5 @@
 import React from "react";
 import InstagramIcon from '@material-ui/icons/Instagram';
-import {Link} from 'react-router-dom';
 import YouTubeIcon from '@material-ui/icons/YouTube';
 import GitHubIcon from '@material-ui/icons/GitHub';
 
@@ -16,15 +15,15 @@ function HomePage() {
 aesthetic webpages to an high standard.
         </p>
         <div className="icons">
-            <Link className="sm-handles" to="https://www.instagram.com/danish512s/">
+            <a className="sm-handles" href="https://www.instagram.com/danish512s/">
                 <InstagramIcon className="s-media insta" />
             </Link>
-            <Link className="sm-handles" to="https://github.com/danishweb/" >
+            <a href="https://github.com/danishweb/" className="sm-handles"  >
                 <GitHubIcon className="s-media gh" />
-            </Link >
-            <Link className="sm-handles" to="https://www.youtube.com/channel/UC5N6Quxx4OSMC9hksPqJrCg" >
+            </a >
+            <a className="sm-handles" href="https://www.youtube.com/channel/UC5N6Quxx4OSMC9hksPqJrCg" >
                 <YouTubeIcon className="s-media yt" />
-            </Link>
+            </a>
         </div>
       </header>
     </div>
