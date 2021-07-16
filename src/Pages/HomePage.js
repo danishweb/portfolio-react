@@ -16,13 +16,13 @@ function HomePage() {
 aesthetic webpages to an high standard.
         </p>
         <div className="icons">
-            <Link className="sm-handles" to="https://www.instagram.com/danish512s/" exact>
+            <Link className="sm-handles" to="https://www.instagram.com/danish512s/">
                 <InstagramIcon className="s-media insta" />
             </Link>
-            <Link className="sm-handles" to="https://github.com/danishweb/" exact>
+            <Link className="sm-handles" to="https://github.com/danishweb/" >
                 <GitHubIcon className="s-media gh" />
             </Link >
-            <Link className="sm-handles" to="https://www.youtube.com/channel/UC5N6Quxx4OSMC9hksPqJrCg" exact>
+            <Link className="sm-handles" to="https://www.youtube.com/channel/UC5N6Quxx4OSMC9hksPqJrCg" >
                 <YouTubeIcon className="s-media yt" />
             </Link>
         </div>
