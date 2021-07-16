@@ -17,10 +17,10 @@ aesthetic webpages to an high standard.
         <div className="icons">
             <a className="sm-handles" href="https://www.instagram.com/danish512s/">
                 <InstagramIcon className="s-media insta" />
-            </Link>
+            </a>
             <a href="https://github.com/danishweb/" className="sm-handles"  >
                 <GitHubIcon className="s-media gh" />
-            </a >
+            </a>
             <a className="sm-handles" href="https://www.youtube.com/channel/UC5N6Quxx4OSMC9hksPqJrCg" >
                 <YouTubeIcon className="s-media yt" />
             </a>
